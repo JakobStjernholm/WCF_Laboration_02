@@ -15,11 +15,11 @@ namespace WCF_Laboration_02
             {
 
                 host.AddServiceEndpoint((typeof(ICalculateBMI)),
-                    new WSHttpBinding(),
+                    new BasicHttpBinding(),
                     "CalculateBMI");
 
                 ServiceMetadataBehavior serviceMetadataBehavior = new ServiceMetadataBehavior();
-                serviceMetadataBehavior.HttpsGetEnabled = true;
+                serviceMetadataBehavior.HttpGetEnabled = true;
                 host.Description.Behaviors.Add(serviceMetadataBehavior);
 
                 host.Open();

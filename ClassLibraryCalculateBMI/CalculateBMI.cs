@@ -9,7 +9,7 @@ namespace ClassLibraryCalculateBMI
 {
     public class CalculateBMI : ICalculateBMI
     {
-        public int CalculateBmi(int length, int weight)
+        public double CalculateBmi(double length, double weight)
         {
             return weight/(length*length);
         }
@@ -18,6 +18,6 @@ namespace ClassLibraryCalculateBMI
     public interface ICalculateBMI
     {
         [OperationContract]
-        int CalculateBmi(int length, int weight);
+        double CalculateBmi(double length, double weight);
     }
 }
