@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculateHobby", "Calculate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryCalculateBMI", "ClassLibraryCalculateBMI\ClassLibraryCalculateBMI.csproj", "{6430479D-9DB8-4B20-91CF-D0D625393C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAgeLibrary", "CalculateAgeLibrary\CalculateAgeLibrary.csproj", "{FC09E72C-83BD-4893-A066-E39CDA1E698F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAgeProgram", "CalculateAgeProgram\CalculateAgeProgram.csproj", "{67F2BB1B-C7FF-49A4-9E65-07B30900D99C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{6430479D-9DB8-4B20-91CF-D0D625393C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6430479D-9DB8-4B20-91CF-D0D625393C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6430479D-9DB8-4B20-91CF-D0D625393C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC09E72C-83BD-4893-A066-E39CDA1E698F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC09E72C-83BD-4893-A066-E39CDA1E698F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC09E72C-83BD-4893-A066-E39CDA1E698F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC09E72C-83BD-4893-A066-E39CDA1E698F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F2BB1B-C7FF-49A4-9E65-07B30900D99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F2BB1B-C7FF-49A4-9E65-07B30900D99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F2BB1B-C7FF-49A4-9E65-07B30900D99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F2BB1B-C7FF-49A4-9E65-07B30900D99C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{45D70A57-6566-4A7B-959F-D09DB4F40006} = {7330C2E1-97F5-4CF9-B753-8D1FAFF90CDC}
 		{6430479D-9DB8-4B20-91CF-D0D625393C83} = {7330C2E1-97F5-4CF9-B753-8D1FAFF90CDC}
+		{FC09E72C-83BD-4893-A066-E39CDA1E698F} = {10F7DE54-17A3-4F64-B168-AC3521EDEA1F}
+		{67F2BB1B-C7FF-49A4-9E65-07B30900D99C} = {10F7DE54-17A3-4F64-B168-AC3521EDEA1F}
 	EndGlobalSection
 EndGlobal
